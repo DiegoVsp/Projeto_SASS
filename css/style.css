@@ -99,8 +99,12 @@ body ul {
   justify-content: center;
   flex-direction: column;
   color: #fff;
-  width: 90%;
-  margin-bottom: 6%;
+}
+@media (max-width: 425px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
 }
 .gallery-card-title {
   font-size: 2rem;
